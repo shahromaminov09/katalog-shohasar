@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Shohasar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #FFD700;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #fff;
+            padding: 10px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #FFD700;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 300px;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .product img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .product h3 {
+            color: #FFD700;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Katalog Shohasar</h1>
+        <p>Сладости и снеки высшего качества!</p>
+    </header>
+
+    <nav>
+        <a href="#sweets">Сладости</a>
+        <a href="#snacks">Снеки</a>
+        <a href="#contacts">Контакты</a>
+    </nav>
+
+    <div class="container">
+        <section id="sweets" class="section">
+            <h2>Сладости</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="keksy.jpg" alt="Кексы">
+                    <h3>Кексы</h3>
+                    <p>Вкусные и мягкие кексы на любой вкус.</p>
+                </div>
+                <div class="product">
+                    <img src="pechene.jpg" alt="Печенье">
+                    <h3>Печенье</h3>
+                    <p>Хрустящее печенье с разными вкусами.</p>
+                </div>
+                <div class="product">
+                    <img src="popcorn.jpg" alt="Попкорн">
+                    <h3>Попкорн</h3>
+                    <p>Сладкий и ароматный попкорн.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="snacks" class="section">
+            <h2>Снеки</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="chips.jpg" alt="Чипсы">
+                    <h3>Чипсы</h3>
+                    <p>Хрустящие и вкусные снеки для перекуса.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="section">
+            <h2>Контакты</h2>
+            <p>Адрес: г. Душанбе, ул. Примерная, 123</p>
+            <p>Телефон: +992 123 456 789</p>
+            <p>Email: info@shohasar.tj</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Shohasar. Все права защищены.</p>
+    </footer>
+</body>
+</html>
